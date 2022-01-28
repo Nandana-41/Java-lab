@@ -1,5 +1,5 @@
 import java.util.*;
-class Employee
+class Employe
 {
 	String name;
 	int age;
@@ -14,12 +14,12 @@ class Employee
 	}
 }
 
-class Officer extends Employee
+class Officer extends Employe
 {
 	String specialization;
 }
 
-class Manager extends Employee
+class Manager extends Employe
 {
 	String department;
 }
